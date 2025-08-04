@@ -1,4 +1,3 @@
-
 /*
 container é a tag pai
 flex-direction = sentido do flex
@@ -72,8 +71,7 @@ https://www.flexboxdefense.com
     width: 50px;
     flex-grow: 0;
     flex-shrink: 1;
-    flex: 0 0 auto;
-    align-self: flex-start;
+    align-self: right;
 }
 
 .bloco-2 {
