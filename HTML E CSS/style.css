@@ -24,6 +24,9 @@ https://mastery.games/flexboxzombies/...
 https://www.flexboxdefense.com
 
 */
+body{
+    background-color:darkblue ;
+}
 :root{
     --tamanho: 30px;
     --altura: 15px;
@@ -58,6 +61,7 @@ https://www.flexboxdefense.com
     align-content: center;
     row-gap: 10px;
     column-gap: 30px;
+    color: white;
 
     /* INDIFERENTE */
     background-color: antiquewhite;
@@ -94,6 +98,7 @@ https://www.flexboxdefense.com
     background-color: var(--corFundoQuatro);
     padding: 15px;
     width: 50px;
+    color: #f00;;
 }
 
 .bloco-5 {
@@ -148,6 +153,7 @@ https://www.flexboxdefense.com
     background-color: var(--corFundoTreze);
     padding: 15px;
     width: 50px;
+    color: #000000
 }
 
 .bloco-14 {
