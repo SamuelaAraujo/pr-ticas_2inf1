@@ -25,7 +25,7 @@ https://www.flexboxdefense.com
 
 */
 body{
-    background-color:darkblue ;
+    background-color:rgb(55, 100, 90) ;
 }
 :root{
     --tamanho: 30px;
@@ -55,10 +55,10 @@ body{
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: stretch;
     row-gap: 10px;
     column-gap: 30px;
     color: white;
