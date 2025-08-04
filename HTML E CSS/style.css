@@ -58,9 +58,9 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    align-content: stretch;
-    row-gap: 10px;
-    column-gap: 30px;
+    align-content: center;
+    row-gap: 100px;
+    column-gap: 0px;
     color: white;
 
     /* INDIFERENTE */
