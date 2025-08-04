@@ -26,7 +26,8 @@ https://www.flexboxdefense.com
 
 */
 :root{
-    --corFundoUm: #FF0000
+    --corFundoUm: #FF0000;
+
 }
 .container {
     display: flex;
@@ -45,7 +46,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-1 {
-    background-color: var(--corFundoUm)
+    background-color: var(--corFundoUm);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
