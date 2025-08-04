@@ -26,7 +26,28 @@ https://www.flexboxdefense.com
 
 */
 :root{
+    --tamanho: 30px;
+    --altura: 15px;
+    --titulo_principal: 40px;
+    --titulo_secundario:30px;
+    --texto: 20px;
+    --text_secundario: 15px;
+    --preenchimento: 10px;
     --corFundoUm: #FF0000;
+    --corFundoDois: #00FF00;
+    --corFundoTrês: #0000FF;
+    --corFundoQuatro: #FFFF00;
+    --corFundoCinco: #FFA500;
+    --corFundoSeis: #800080;
+    --corFundoSete: #FFC0CB;
+    --corFundoOito: #00FFFF;
+    --corFundoNove: #FF00FF;
+    --corFundoDez: #8B4513;
+    --corFundoOnze: #808080;
+    --corFundoDoze: #000000;
+    --corFundoTreze: #FFFFFF;
+    --corFundoQuatorze: #FFD700;
+    --corFundoQuinze: #C0C0C0;
 
 }
 .container {
@@ -56,7 +77,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-2 {
-    background-color: rgb(255, 214, 127);
+    background-color: var(--corFundoDois);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
@@ -64,7 +85,7 @@ https://www.flexboxdefense.com
 }
 
 .bloco-3 {
-    background-color: rgb(197, 127, 255);
+    background-color: var(--corFundoTrês);
     padding: 15px;
     width: 50px;
     flex-grow: 0;
@@ -72,73 +93,73 @@ https://www.flexboxdefense.com
 }
 
 .bloco-4 {
-    background-color: rgb(127, 146, 255);
+    background-color: var(--corFundoQuatro);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-5 {
-    background-color: rgb(129, 127, 255);
+    background-color: var(--corFundoCinco);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-6 {
-    background-color: rgb(255, 157, 127);
+    background-color: var(--corFundoSeis);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-7 {
-    background-color: rgb(240, 28, 28);
+    background-color: var(--corFundoSete);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-8 {
-    background-color: rgb(169, 74, 247);
+    background-color: var(--corFundoOito);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-9 {
-    background-color: rgb(245, 44, 77);
+    background-color: var(--corFundoNove);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-10 {
-    background-color: rgb(85, 233, 93);
+    background-color: var(--corFundoDez);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-11 {
-    background-color: rgb(176, 245, 15);
+    background-color: var(--corFundoOnze);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-12 {
-    background-color: rgb(166, 230, 183);
+    background-color: var(--corFundoDoze);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-13 {
-    background-color: rgb(21, 183, 204);
+    background-color: var(--corFundoTreze);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-14 {
-    background-color: rgb(29, 202, 13);
+    background-color: var(--corFundoQuatorze);
     padding: 15px;
     width: 50px;
 }
 
 .bloco-15 {
-    background-color: rgb(212, 192, 233);
+    background-color: var(--corFundoQuinze);
     padding: 15px;
     width: 50px;
 }
