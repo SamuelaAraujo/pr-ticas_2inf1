@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    display: flex;
+    width: 30px;
+    height: auto;
+}
