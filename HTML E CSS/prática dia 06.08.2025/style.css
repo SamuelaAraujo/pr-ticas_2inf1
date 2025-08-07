@@ -11,7 +11,7 @@ body{
     background-color: rgb(255, 255, 255);
     flex-flow: row;
 }
-.item{
+.item, .item_2, .item_3, .item_4, .item_5{
     width: 200px;
     height: auto;
     background-color: rgb(255, 155, 6);
@@ -19,51 +19,9 @@ body{
     margin: 20px;
     border: 1px solid;
 }
-.item img{
+.item img, .item_2 img, .item_3 img, .item_4 img, .item_5 img{
     width: 100%;
     height: auto;
     margin: auto;
     border: 1px solid;
-}
-.item_2{
-    width: 200px;
-    height: auto;
-    background-color: rgb(255, 155, 6);
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid;
-}
-.item_2 img{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    border: 1px solid;
-}
-.item_3{
-    width: 200px;
-    height: auto;
-    background-color: rgb(255, 155, 6);
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid;   
-}
-.item_3 img{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    border: 1px solid;    
-}
-.item_4{
-    width: 200px;
-    height: auto;
-    background-color: rgb(255, 155, 6);
-    padding: 20px;
-    margin: 20px;
-    border: 1px solid;
-}
-.item_4 img{
-    width: 100%;
-    height: auto;
-    margin: auto;
-    border: 1px solid; 
 }
