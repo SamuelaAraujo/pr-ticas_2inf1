@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
 <body>
-    <!-- action serve para -->
      <div>
-    <form action="#" autocomplete="off">
+    <form action="#" autocomplete="on">
         <label for="fullName">Nome completo:</label>
         <input type="text" id="fullName" name="full_Name">
         <br>
@@ -18,12 +18,26 @@
         <label for="passwordUser">Senha:</label>
         <input type="password" id="passwordUser" name="senhaUsuário">
         <br>
+        <br> 
+        <input class="enviar" type="submit" value="enviar">
         <br>
-        <input type="submit" value="enviar">
+        <button onclick="minhaFuncao()">ME APERTE, POR FAVOR!!</button>
         <br>
-        <button onclick="minhaFuncao()">aaaaaaaa</button>
+        <input type="reset" value="limparCampos">
+        <br>
+        <input type="radio" value="HTML"> HTML
+        <br>
+        <input type="radio" value="CSS" name="css" id="css"> CSS
+        <br>
+        <input type="radio" name="javascript" id="javascript" value="javascript"> JavaScript
+
     </form>
+    <script>
+        function minhaFuncao(){
+            document.write("aaaaaaa");
+            console.log("você me apertou!");
+        }
+    </script>
     </div>
-    
 </body>
 </html>
